@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header,.headerCon{
+    display:flex;align-items:center;
+    justify-content: center;
+    height:15vh;
+}
+.headerCon {
+    width: 80%;
+    height:100%;
+    justify-content: space-between;
+}
+.headerCon>a{
+padding:0 30px;
+text-decoration:none;
+Color:black;
+}
+a:nth-child(3){
+    font-size: 30px;font-weight: bold;
+}
